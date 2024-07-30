@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    border: 0;
+    background-color: #005858;
+}
+.box {
+    margin: 150px;
+    padding: 50px;
+    display: flexbox;
+    flex-direction: row;
+    width: 500px;
+    height: 300px;
+    border: none;
+    box-shadow: 2px 2px 7px 1px #faf9f6;
+    border-radius: 15px;
+}
+h1 {
+    color: #dda0dd;
+    margin-top: 10px;
+    margin-left: 145px;
+    font-size: 3rem;
+    font-family: manrope;
+    font-weight: bold;
+}
+.btn {
+    margin-top: 80px;
+    margin-left: 65px;
+    padding: 5px;
+    justify-content: space-between;
+    color: #dda0dd;
+    font-size: 16px;
+    font-family: manrope;
+    background-color: #cc77cc;
+    width: 80px;
+    border-radius: 30px;
+    border: 2px solid #b466b4;
+    box-shadow: 2px 2px 7px 1px  #cc77cc;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #eb9beb;
+}
+#display {
+    margin-top: 50px;
+    margin-left: 160px;
+    padding: 20px;
+    font-size: 42px;
+    font-family: manrope;
+    font-weight: bold;
+    color: #dda0dd;
+    text-shadow: 1px 1px 2px #eb9beb;
+}
